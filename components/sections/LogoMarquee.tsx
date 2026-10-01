@@ -102,11 +102,11 @@ const logos = [
 
 const LogoMarquee = () => {
   return (
-    <section className="bg-white lg:py-20 md:py-10 py-8">
+    <section className="bg-[#F5F5F6] lg:py-20 md:py-10 py-8">
       <div className="mx-auto max-w-7xl overflow-hidden">
         <div className="relative">
-          <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-24 bg-linear-to-r from-white to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 bg-linear-to-l from-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-24 bg-linear-to-r from-[#F5F5F6] to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 bg-linear-to-l from-[#F5F5F6] to-transparent z-10 pointer-events-none" />
 
           <div className="flex animate-marquee">
             <div className="flex items-center lg:gap-x-16 md:gap-x-12 gap-x-8 gap-y-8 pr-16">

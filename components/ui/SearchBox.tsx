@@ -31,7 +31,7 @@ const SearchBox = ({ className = "" }: SearchBoxProps) => {
           />
         </div>
 
-        <button className="bg-primary hover:bg-primary/90 text-heading font-semibold text-sm px-7.5 py-3 rounded-3xl transition-colors">
+        <button className="bg-primary hover:bg-primary/90 text-heading font-semibold text-sm px-7.5 py-3 rounded-3xl transition-colors cursor-pointer">
           Search
         </button>
       </div>

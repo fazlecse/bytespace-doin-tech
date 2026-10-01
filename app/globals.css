@@ -3,10 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --color-primary: #D4FB20;
+  --color-primary: #d4fb20;
   --color-secondary: #003be2;
   --color-heading: #242528;
-  --color-body: #82868E;
+  --color-body: #82868e;
 }
 
 @theme inline {
@@ -18,7 +18,7 @@
   --color-heading: var(--color-heading);
   --color-body: var(--color-body);
 
-  --font-sans: var(--font-geist-sans);
+  --font-heding: var(--font-poppins);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -36,7 +36,12 @@ body {
   font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }
 
