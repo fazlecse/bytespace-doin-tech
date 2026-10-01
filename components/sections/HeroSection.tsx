@@ -121,8 +121,8 @@ const HeroSection = () => {
         className="absolute bottom-0 top-0 right-0 left-0 -z-2 h-full w-full object-cover"
         src="/line-shape.svg"
         alt="Hero image"
-        width={1149}
-        height={1149}
+        width={1440}
+        height={1024}
       />
       <Image
         className="absolute bottom-0 right-0 left-0 -z-1 w-full"
